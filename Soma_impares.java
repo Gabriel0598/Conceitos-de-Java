@@ -26,7 +26,7 @@ public class Soma_impares
 		soma = 0;
 		for (int i = x+1; i < y; i++)
 		{
-			if(i % 2 != 0) //Se é divísil por 2 logo é par, por isso usar mod 2;
+			if(i % 2 != 0) //Se é divisível por 2 logo é par, por isso usar mod 2;
 			{
 				soma = soma + i;
 			}
